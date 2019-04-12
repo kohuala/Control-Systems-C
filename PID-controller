@@ -19,7 +19,7 @@ float64 VMAX = 6;
 ofstream results;                      
 
 //open the file for output
-results.open ("Lab3Part1Results.txt"); 
+results.open ("Results.txt"); 
 
 //writes to output file
 results << "Position r\t" << "     u output of the PID" << "     potentiometer reading " << endl; 
